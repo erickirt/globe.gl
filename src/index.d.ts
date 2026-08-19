@@ -58,6 +58,8 @@ interface GlobeGenericInstance<ChainableInstance>
   pathLabel(textAccessor: ObjAccessor<Label>): ChainableInstance;
   hexLabel(): Accessor<HexBin, Label>;
   hexLabel(textAccessor: Accessor<HexBin, Label>): ChainableInstance;
+  hexPolygonLabel(): ObjAccessor<Label>;
+  hexPolygonLabel(textAccessor: ObjAccessor<Label>): ChainableInstance;
   tileLabel(): ObjAccessor<Label>;
   tileLabel(textAccessor: ObjAccessor<Label>): ChainableInstance;
   particleLabel(): ObjAccessor<Label>;
